@@ -1,5 +1,5 @@
 {
-  "name": "random-string-generator",
+  "name": "string-random-generator",
   "version": "1.0.0",
   "description": "generate a random string, by alphabetic, and or numeric. we also can determine the length of it",
   "main": "index.js",

@@ -1,10 +1,10 @@
-# random-string-generator
+# string-random-generator
 
 ## desc
 we can create a random string with this package. Built with simple javascript function ``` Math.floor(Math.random() ...) ``` and you can random all things, like alphabet, number, and symbol. You can also give a parameter that will random by this package!
 
 ## installation
-<pre>npm i random-string-generator</pre>
+<pre>npm i string-random-generator</pre>
 
 ## import 
 <pre>const randomString = require('random-string-generator')</pre>
