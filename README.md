@@ -15,15 +15,15 @@ console.log(randomString.allRandom(5)) // will print 5 random string : {)FVN
 </pre>
 
 ## what can you do
-.allRandom(int) ``` randomString.allRandom(5) // print random string by 5``` 
-.doNumber(int) ``` .doNumber(5) // print random number by 5``` 
-.doUpper(int) ``` .doUpper(5) // print random uppercase by 5``` 
-.doLower(int)
-.doSym(int)
+- .allRandom(int) ``` randomString.allRandom(5) // print random string by 5``` 
+- .doNumber(int) ``` .doNumber(5) // print random number by 5``` 
+- .doUpper(int) ``` .doUpper(5) // print random uppercase by 5``` 
+- .doLower(int)
+- .doSym(int)
 
-.customInput(int, string) ``` .customInput(5, 'qwerty') // print random from string parameter```
+- .customInput(int, string) ``` .customInput(5, 'qwerty') // print random from string parameter```
 
-.customRandom(int, object)  ``` print by selected character with object parameter ```
+- .customRandom(int, object)  ``` print by selected character with object parameter ```
 <pre>
 {
 	upperc: true,
