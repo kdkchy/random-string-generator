@@ -7,9 +7,9 @@ we can create a random string with this package. Built with simple javascript fu
 <pre>npm i string-random-generator</pre>
 
 ## import 
-<pre>const randomString = require('random-string-generator')</pre>
+<pre>const randomString = require('string-random-generator')</pre>
 you also can import only one function in it
-<pre>const { doNumber } = require('random-string-generator)</pre>
+<pre>const { doNumber } = require('string-random-generator)</pre>
 
 ## time to play
 <pre>
