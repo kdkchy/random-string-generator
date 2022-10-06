@@ -1,0 +1,24 @@
+{
+  "name": "random-string-generator",
+  "version": "1.0.0",
+  "description": "generate a random string, by alphabetic, and or numeric. we also can determine the length of it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdkchy/random-string-generator.git"
+  },
+  "keywords": [
+    "generator",
+    "string",
+    "random"
+  ],
+  "author": "kdkchy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdkchy/random-string-generator/issues"
+  },
+  "homepage": "https://github.com/kdkchy/random-string-generator#readme"
+}
