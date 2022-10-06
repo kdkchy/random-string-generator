@@ -4,10 +4,12 @@
 we can create a random string with this package. Built with simple javascript function ``` Math.floor(Math.random() ...) ``` and you can random all things, like alphabet, number, and symbol. You can also give a parameter that will random by this package!
 
 ## installation
-npm i random-string-generator
+<pre>npm i random-string-generator</pre>
 
 ## import 
-const randomString = require('random-string-generator')
+<pre>const randomString = require('random-string-generator')</pre>
+you also can import only one function in it
+<pre>``` const { doNumber } = require('random-string-generator)</pre>
 
 ## time to play
 <pre>
@@ -15,32 +17,15 @@ console.log(randomString.allRandom(5)) // will print 5 random string : {)FVN
 </pre>
 
 ## what can you do
-- .allRandom(int) ``` randomString.allRandom(5) // print random string by 5``` 
-- .doNumber(int) ``` .doNumber(5) // print random number by 5``` 
-- .doUpper(int) ``` .doUpper(5) // print random uppercase by 5``` 
-- .doLower(int)
-- .doSym(int)
-
-- .customInput(int, string) ``` .customInput(5, 'qwerty') // print random from string parameter```
-
-- .customRandom(int, object)  ``` print by selected character with object parameter ```
-<pre>
-{
-	upperc: true,
-	lowerc: true,
-	num: true,
-	sym: false	
-}
-</pre>
-
-
-| function  | parameter | example                   | result |
-|-----------|-----------|---------------------------|--------|
-| allRandom | (int)     | randomString.allRandom(5) | 1pO[.  |
-|           |           |                           |        |
-|           |           |                           |        |
-|           |           |                           |        |
-|           |           |                           |        |
+| function     | parameter     | example                                                       | result                          |
+|--------------|---------------|---------------------------------------------------------------|---------------------------------|
+| allRandom    | (int)         | randomString.allRandom(5)                                     | ```1pO[. // generated 5 char``` |
+| doNumber     | (int)         | doNumber(5)                                                   | ```41802```                     |
+| doUpper      | (int)         | doUpper(5)                                                    | ```JSOPQ```                     |
+| doLower      | (int)         | doLower(5)                                                    | ```dqmfi```                     |
+| doSym        | (int)         | doSym(5)                                                      | ```(@:!0```                     |
+| customInput  | (int, string) | ...(5, 'qwerty')                                              | ```ttweq```                     |
+| customRandom | (int, object) | ...(5, { upperc: true, lowerc: true, num: true, sym: false }) | ```wR5r2```                     |
 
 
 
