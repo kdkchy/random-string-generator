@@ -34,4 +34,13 @@ console.log(randomString.allRandom(5)) // will print 5 random string : {)FVN
 </pre>
 
 
+| function  | parameter | example                   | result |
+|-----------|-----------|---------------------------|--------|
+| allRandom | (int)     | randomString.allRandom(5) | 1pO[.  |
+|           |           |                           |        |
+|           |           |                           |        |
+|           |           |                           |        |
+|           |           |                           |        |
+
+
 
